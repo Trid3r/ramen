@@ -36,7 +36,7 @@ function Info(t) {
                           <Button
                             className="mr-1"
                             color="link"
-                            href="https://github.com/Trid3r/pasta"
+                            href="https://github.com/Trid3r/ramen"
                             target="_blank"
                           >
                             <i className="fa-solid fa fa-github fa-2xl"></i>
