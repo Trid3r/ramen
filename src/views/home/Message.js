@@ -27,7 +27,7 @@ function Message(t,modal,toggleModal) {
         </h4>
     </div>
     <div className="modal-footer">
-      <b className="text-center" style={{fontSize: "1vmin"}}>{t('homeModalAPA')}</b>
+      <b className="text-center" style={{fontSize: "clamp(10px, 4vw, 10px)"}}>{t('homeModalAPA')}</b>
     </div>
     </Modal>
   );
