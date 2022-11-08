@@ -23,7 +23,7 @@ function Index() {
   });
   return (
     <>
-      {Navbar(t, i18n)}
+      <Navbar t={t} i18n={i18n} />
       {Header(t)}
       <div className="main">
         {Info(t)}

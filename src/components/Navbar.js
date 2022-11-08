@@ -13,7 +13,7 @@ import {
   Container
 } from "reactstrap";
 
-function IndexNavbar(t, i18n) {
+function IndexNavbar({t, i18n}) {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
   
@@ -61,9 +61,7 @@ function IndexNavbar(t, i18n) {
             href="/index"
             target="_blank"
             title="Coded by Creative Tim"
-          >
-             {/* {window.location.pathname == '/en' ? 'FSM' : 'Iglesia del Monstruo de Espagueti Volador'} */}
-          </NavbarBrand>
+          />
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
@@ -92,30 +90,6 @@ function IndexNavbar(t, i18n) {
                 <p className="d-lg-none">{t('chLanguage')}</p>
               </NavLink>
             </NavItem>
-
-            {/* <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://es.wikipedia.org/wiki/Monstruo_de_Espagueti_Volador"
-                target="_blank"
-              >
-                <i className="fa fa-wikipedia-w" />
-                <p className="d-lg-none">Wikipedia</p>
-              </NavLink>
-            </NavItem>  */}
-
-            {/* <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://github.com/Trid3r/pasta"
-                target="_blank"
-                title="Star on GitHub"
-              >
-                <i className="fa fa-github" />
-                <p className="d-lg-none">GitHub</p>
-              </NavLink>
-            </NavItem>
-            */}
           </Nav>
         </Collapse>
       </Container>
