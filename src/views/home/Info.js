@@ -2,9 +2,10 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col, Button } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 // core components
+import Links from "./Links";
 
 function Info(t) {
   return (
@@ -16,35 +17,8 @@ function Info(t) {
               <h3 className="title"><b>{t('homeWelcome')}</b></h3>
               <h5 className="description">{t('homePhrase1')}</h5>
             </Col>
-          </Row>
-          <Row>
             <Col className="ml-auto mr-auto text-center" md="10">
-            <table style={{ width: '100%'}}>
-                  <tbody>
-                      <tr>
-                        <th style={{ textAlign: 'center'}} className="description">
-                          <Button
-                            className="mr-1"
-                            color="link"
-                            href={t('wiki')}
-                            target="_blank"
-                          >
-                            <i className="fa fa-wikipedia-w fa-2xl"></i>
-                          </Button>
-                        </th>
-                        <th style={{ textAlign: 'center'}} className="description">
-                          <Button
-                            className="mr-1"
-                            color="link"
-                            href="https://github.com/Trid3r/ramen"
-                            target="_blank"
-                          >
-                            <i className="fa-solid fa fa-github fa-2xl"></i>
-                          </Button>
-                        </th>
-                      </tr>
-                  </tbody>
-                </table> 
+              {Links(t)}
             </Col>
           </Row>
         </Container>
