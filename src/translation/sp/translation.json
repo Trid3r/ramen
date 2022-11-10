@@ -11,7 +11,7 @@
 
   "homeHeaderTitle": "En parte la educación debe exponer personas a diferentes escuelas de pensamiento",
   "homeHeaderSubtitle": "GEORGE W. BUSH - pastafari de clóset",
-  "homeWelcome": "¡Bienvenido al maravilloso mundo de la religión!",
+  "homeWelcome": "¡Bienvenido al 'maravilloso' mundo de la religión!",
   "homePhrase1": "La Iglesia del Monstruo de Espagueti Volador (FSM) te invita a conocer un poco más de nosotros. Nos gustaría contarles a todos sobre nuestro paraíso, que cuenta con una fábrica de strippers y un volcán gigante de cerveza.",
   "homePhrase2": "Nos encantaría verte vestid@ con el atuendo elegido: De un pirata... Queremos que disfrutes de los viernes, para nosotros, 'la fiesta elegida'. Pero primero, necesitas saber un poco más de nosotros.",
   "homeQuestion1": "¿Qué representamos?",
@@ -22,7 +22,9 @@
   "homePhrase4": "Aunque no es tan simple, y por eso tenemos un libro.",
   "homePhrase5": "¿No todas las religiones tiene un libro 'Original' ?",
   "homeWhy": "¿Porque?",
-  "homeModalTitle": "¿Monstruo de espagueti volador?",
-  "homeModalContent": "Sí, hay una organización religiosa llamada Iglesia del Monstruo de Espagueti Volador, que lleva el nombre, naturalmente, de una masa voladora de fideos y albóndigas. Su origen se remonta a 2005, cuando el físico estadounidense Bobby Henderson publicó una carta en protesta por una decisión del consejo escolar estatal de Kansas de permitir que se enseñara el 'diseño inteligente' y el creacionismo como alternativa a la evolución en las escuelas públicas. Si se permite que se enseñe el creacionismo a los estudiantes, argumentó Henderson, entonces también se debería enseñar el pastafarianismo, cuya deidad es el Monstruo de Espagueti Volador.",
-  "homeModalAPA": "Klein, K. (2017, Agosto 2). Germany and the flying spaghetti monster. Deutsche Welle. https://www.dw.com/en/german-courts-take-on-the-flying-spaghetti-monster/a-39943249"
+  "homeModalTitle": "¿Porque hacemos esto?",
+  "homeModalContent": "Comenzó en 2005, cuando el físico Bobby Henderson publicó una carta en protesta por una decisión del consejo escolar de Kansas de permitir que se enseñara el 'diseño inteligente' y el creacionismo como 'alternativa' a la evolución en las escuelas públicas.",
+  "homeModalContent2": "Si se permite que se enseñe el creacionismo a los estudiantes, entonces también se debería enseñar el pastafarismo cuya deidad es el Monstruo de Espagueti Volador.",
+  "homeModalPhraseL": "¡Por una Latinoamérica con estado laico!",
+  "homeModalFact": "También para parodiar a la religión"
 }

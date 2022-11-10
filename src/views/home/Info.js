@@ -1,11 +1,10 @@
-
 import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
 // core components
-import Links from "./Links";
+import Message from "./Message";
 
 function Info(t) {
   return (
@@ -16,9 +15,8 @@ function Info(t) {
             <Col className="ml-auto mr-auto text-center" md="10">
               <h3 className="title"><b>{t('homeWelcome')}</b></h3>
               <h5 className="description">{t('homePhrase1')}</h5>
-            </Col>
-            <Col className="ml-auto mr-auto text-center" md="10">
-              {Links(t)}
+              <br/>
+              <Message t={t} />
             </Col>
           </Row>
         </Container>

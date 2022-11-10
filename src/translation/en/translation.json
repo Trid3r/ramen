@@ -11,7 +11,7 @@
 
   "homeHeaderTitle": "Part of education is to expose people to different schools of thought",
   "homeHeaderSubtitle": "GEORGE W. BUSH - closet Pastafarian",
-  "homeWelcome": "Welcome to the wonderful world of religion!",
+  "homeWelcome": "Welcome to the 'wonderful' world of religion!",
   "homePhrase1": "The Church of the Flying Spaghetti Monster (FSM) invites you to learn a little more about us. We'd like to tell you all about our Heaven, which features a Stripper Factory and a giant Beer Volcano.",
   "homePhrase2": "We'd love to see you dressed in the chosen garb: A pirate outfit. We want you to enjoy Fridays as His chosen holiday. But first you need to know a little more about us.",
   "homeQuestion1": "What do we stand for?",
@@ -22,7 +22,9 @@
   "homePhrase4": " Of course it's not that simple, and that's why we have a book.",
   "homePhrase5": "Doesn't every religion have an 'Orignal' book?",
   "homeWhy": "Why?",
-  "homeModalTitle": "Flying Spaghetti Monster?",
-  "homeModalContent": "Yes, there is actually a religious organization called the Church of the Flying Spaghetti Monster, named after - naturally - a flying mass of noodles and meatballs. Its origin dates back to 2005, when US physicist Bobby Henderson published a letter in protest of a decision by the Kansas state school board to allow 'intelligent design' and creationism to be taught as an alternative to evolution in public schools. If creationism is allowed to be taught to students, Henderson argued, then so should pastafarianism, whose deity is the Flying Spaghetti Monster.",
-  "homeModalAPA": "Klein, K. (2017, August 2). Germany and the Flying Spaghetti Monster. Deutsche Welle. https://www.dw.com/en/german-courts-take-on-the-flying-spaghetti-monster/a-39943249"
+  "homeModalTitle": "Why are we doing this?",
+  "homeModalContent": "It began in 2005, when physicist Bobby Henderson published a letter protesting a decision by the Kansas school board to allow 'intelligent design' and creationism to be taught as an 'alternative' to evolution in public schools.",
+  "homeModalContent2": "If creationism is allowed to be taught to students, then Pastafarianism whose deity is the Flying Spaghetti Monster should also be taught.",
+  "homeModalPhraseL": "For a Latin America with a secular state!",
+  "homeModalFact": "Also to parody religion"
 }
