@@ -1,16 +1,19 @@
-
 import React from "react";
+
 // nodejs library that concatenates strings
 import classnames from "classnames";
+
 // reactstrap components
 import {
   Collapse,
   NavbarBrand,
   Navbar,
-  NavItem,
-  NavLink,
   Nav,
-  Container
+  Container,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from "reactstrap";
 
 function IndexNavbar({t, i18n}) {
@@ -22,13 +25,29 @@ function IndexNavbar({t, i18n}) {
     document.documentElement.classList.toggle("nav-open");
   };
 
-  function changeLanguage() {
-    if(t('language') === "sp"){
-      i18n.changeLanguage("en");
-    } else {
-      i18n.changeLanguage("sp");
-    }
+  function changeLanguage(language) {
+    toggleNavbarCollapse()
+    i18n.changeLanguage(language);
 	}
+
+  let languages = [
+    {
+      "name": "Español",
+      "iso": "es",
+      "icon": "fa-pepper-hot"
+    },
+    {
+      "name": "Português",
+      "iso": "pt",
+      "icon": "fa-futbol"
+    },
+    {
+      "name": "English",
+      "iso": "en",
+      "icon": "fa-burger"
+    }
+  ]
+  
 
   React.useEffect(() => {
     const updateNavbarColor = () => {
@@ -80,16 +99,33 @@ function IndexNavbar({t, i18n}) {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                onClick={changeLanguage}
-                title={t('chLanguage')}
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle
+                aria-expanded={false}
+                aria-haspopup={true}
+                caret
+                color="default"
+                data-toggle="dropdown"
+                nav
+                onClick={(e) => e.preventDefault()}
+                role="button"
               >
-                <i className={`fa-solid ${t('icon')}`}></i>
+                <i
+                  aria-hidden={true}
+                  className="fa-solid fa-earth-americas"
+                  style={{fontSize: "1.7em"}}
+                />
                 <p className="d-lg-none">{t('chLanguage')}</p>
-              </NavLink>
-            </NavItem>
+              </DropdownToggle>
+              <DropdownMenu end>
+                {languages.filter(item => item.iso !== t('language')).map((item,index) => (
+                  <DropdownItem key={index} onClick={() => changeLanguage(item.iso)}>
+                    <i className={`fa-solid ${item.icon}`}></i>
+                    {item.name}
+                  </DropdownItem>
+                ))} 
+              </DropdownMenu>
+            </UncontrolledDropdown>
           </Nav>
         </Collapse>
       </Container>
